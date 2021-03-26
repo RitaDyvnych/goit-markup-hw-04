@@ -334,6 +334,50 @@ img {
   color: var(--second-text-color);
   margin-bottom: 16px;
 }
+
+/*секция 5*/
+.section5-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients {
+  display: flex;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clients-link .icon {
+  /* width: 44.27px;
+  height: 49.23px; */
+  fill: var(--icon-color);
+}
+
+.clients-link:hover .icon,
+.clients-link:focus .icon {
+  fill: var(--logo-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--logo-color);
+}
+
 /*футер*/
 .footer {
   background-color: var(--section-bcg-color);
