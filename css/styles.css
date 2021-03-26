@@ -232,9 +232,10 @@ img {
 .team-member-list {
   padding: 30px 60px;
 }
-.team-member-list:first-of-type {
+/* для первой карточки выравнивает имя в одну строку с фамилией */
+/* .team-member-list:first-of-type {
   padding: 30px 59px;
-}
+} */
 .section4-title {
   font-weight: bold;
   font-size: 36px;
