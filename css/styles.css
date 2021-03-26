@@ -104,8 +104,29 @@ img {
   align-items: center;
   margin-left: auto;
 }
+
+.item-header-list .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .item-header-list:not(:last-child) {
   margin-right: 50px;
+}
+
+.item-header-list .icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.item-header-list .icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .navigation {
@@ -161,9 +182,6 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.hero .container {
 }
 
 .hero-button {
