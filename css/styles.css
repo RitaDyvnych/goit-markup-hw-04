@@ -210,9 +210,20 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* .section2 {
-  padding-bottom: 0;
-} */
+
+.benefits {
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+.icon-benefits {
+  width: 70px;
+  height: 70px;
+}
 
 .section-ul {
   display: flex;
