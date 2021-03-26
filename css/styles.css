@@ -27,6 +27,7 @@ p {
   --second-text-color: #757575;
   --other-color: #ffffff;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --icon-color: #afb1b8;
   --title-font: "Raleway", sans-serif;
 }
 
@@ -272,7 +273,41 @@ img {
 }
 
 .team-member-list {
-  padding: 30px 60px;
+  padding: 30px 32px;
+}
+
+.social-icons {
+  display: inline-flex;
+}
+
+.social-icons-item + .social-icons-item {
+  margin-left: 10px;
+}
+
+.social-icons .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color);
+}
+
+.social-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--other-color);
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus {
+  background-color: var(--logo-color);
+}
+
+.social-icons-link:hover .icon,
+.social-icons-link:focus .icon {
+  fill: var(--other-color);
 }
 /* для первой карточки выравнивает имя в одну строку с фамилией */
 /* .team-member-list:first-of-type {
@@ -297,7 +332,7 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--second-text-color);
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 /*футер*/
 .footer {
