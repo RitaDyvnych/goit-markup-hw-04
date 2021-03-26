@@ -309,10 +309,7 @@ img {
 .social-icons-link:focus .icon {
   fill: var(--other-color);
 }
-/* для первой карточки выравнивает имя в одну строку с фамилией */
-/* .team-member-list:first-of-type {
-  padding: 30px 59px;
-} */
+
 .section4-title {
   font-weight: bold;
   font-size: 36px;
@@ -352,20 +349,23 @@ img {
   margin-left: 30px;
 }
 
+.clients-item {
+  width: 170px;
+  height: 90px;
+}
+
 .clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--icon-color);
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .clients-link .icon {
-  /* width: 44.27px;
-  height: 49.23px; */
   fill: var(--icon-color);
 }
 
@@ -420,6 +420,34 @@ img {
 
 .address-list {
   margin-top: 20px;
+}
+.footer-grid {
+  display: flex;
+  align-items: baseline;
+}
+.connect {
+  margin-left: 70px;
+}
+.connect p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--other-color);
+  margin-bottom: 20px;
+}
+
+.connect .icon {
+  fill: var(--other-color);
+}
+
+.connect .social-icons-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus {
+  background-color: var(--logo-color);
 }
 
 /*страница портфолио*/
