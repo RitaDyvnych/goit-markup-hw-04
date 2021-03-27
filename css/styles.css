@@ -213,13 +213,14 @@ img {
 }
 
 .benefits {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  padding: 25px 100px;
 }
 .icon-benefits {
   width: 70px;
@@ -507,10 +508,17 @@ img {
   flex-basis: calc ((100% - 30px * 3) / 3);
 }
 
-.gallery-item:hover {
+.gallery-item .link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.gallery-item .link:hover,
+.gallery-item .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
+  color: inherit;
 }
 
 .gallery h2 {
